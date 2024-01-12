@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="text" placeholder="Search for reciepes" id="searchBar">
+
+    <div>
+        <button id="showAll">Show All</button>
+        <button id="showveg">Veg Reciepes only</button>
+        <button id="shownonveg">Non Veg Reciepes</button>
+    </div>
+
+    <div>
+        <label for="ratingabove">4 and above</label>
+        <input type="radio" id="ratingabove" name="ratingFilter">
+        <label for="ratingbelow">Below 4</label>
+        <input type="radio" id="ratingbelow" name="ratingFilter">
+    </div>
+
+    <div id="reciepeContainer"></div>
+    <script src="./script.js"></script>
+</body>
+</html>

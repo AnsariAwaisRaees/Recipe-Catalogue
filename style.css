@@ -1,0 +1,14 @@
+#reciepeContainer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reciepe-card {
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
